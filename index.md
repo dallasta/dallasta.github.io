@@ -5,7 +5,7 @@ title: Home
 
 # Prof. Luca Dall'Asta
 
-![Luca Dall'Asta](profile.jpg){: width="180px" style="float: right; margin-left: 20px; border-radius: 8px;"}
+![Luca Dall'Asta](foto.png){: width="180px" style="float: right; margin-left: 20px; border-radius: 8px;"}
 
 **Associate Professor of Theoretical Physics**  
 [Department of Applied Science and Technology (DISAT)](https://www.disat.polito.it/)  
