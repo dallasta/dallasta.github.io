@@ -1,10 +1,11 @@
 title: Luca Dall'Asta
-description: Associate Professor of Theoretical Physics & Complex Systems | Politecnico di Torino
-theme: jekyll-theme-tactile
+description: Associate Professor of Theoretical Physics & Complex Systems
+remote_theme: "mmistakes/minimal-mistakes@master"
+minimal_mistakes_skin: "air" # Opzioni eleganti: air, mint, dirt, sunrise, contrast
 
-email: luca.dallasta@polito.it
-orcid: 0000-0002-3868-6188
-googlescholar: https://scholar.google.com/citations?user=LucaDallAsta
+# Impostazioni Layout
+sidebar:
+  nav: "main"
 
 header_pages:
   - index.md
