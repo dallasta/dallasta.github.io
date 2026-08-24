@@ -1,0 +1,27 @@
+/* Luca Dall'Asta — small visual refinements for Academic Pages.
+   Keep this file intentionally light: the Academic Pages theme does most of the work. */
+
+.page__content h2 {
+  margin-top: 2.2em;
+}
+
+.page__content h3 {
+  margin-top: 1.7em;
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.65;
+}
+
+.page__content a {
+  text-underline-offset: 0.15em;
+}
+
+.archive__item-title {
+  line-height: 1.25;
+}
+
+.notice--primary {
+  border-radius: 6px;
+}
