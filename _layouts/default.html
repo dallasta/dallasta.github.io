@@ -33,9 +33,10 @@
 
   <!-- Main Container -->
   <div class="main-container">
+
     
-    {% if page.author_profile %}
-    <!-- Sidebar con Foto e Info Profilo (stampata SOLO se author_profile: true) -->
+{% if page.author_profile %}
+    <!-- Sidebar con Profilo, Full CV e Link Bibliometrici -->
     <aside class="sidebar">
       {% if site.author.avatar %}
         <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-img">
@@ -58,8 +59,15 @@
       
       <hr class="sidebar-divider">
       
-      <!-- Link social / accademici -->
+      <!-- Link CV + Profili Bibliometrici -->
       <ul class="sidebar-links">
+        {% if site.author.cv_pdf %}
+          <li class="cv-link">
+            <a href="{{ site.author.cv_pdf | relative_url }}" target="_blank" rel="noopener">
+              <i class="fa-solid fa-file-pdf"></i> <strong>Full CV (PDF)</strong>
+            </a>
+          </li>
+        {% endif %}
         {% if site.author.email %}
           <li><a href="mailto:{{ site.author.email }}"><i class="fa-solid fa-envelope"></i> Email</a></li>
         {% endif %}
@@ -74,9 +82,6 @@
         {% endif %}
         {% if site.author.researchgate %}
           <li><a href="{{ site.author.researchgate }}" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i> ResearchGate</a></li>
-        {% endif %}
-        {% if site.author.github %}
-          <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></li>
         {% endif %}
       </ul>
     </aside>
