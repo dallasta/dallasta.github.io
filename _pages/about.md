@@ -10,31 +10,53 @@ My research focuses on **statistical physics and complex systems**, with particu
 
 <br>
 
+**Statistical Physics · Complex Systems · Disordered Systems · Non-equilibrium Dynamics**
+
+<br>
+
 ## Research
 
-My research combines analytical methods from statistical mechanics with computational approaches to study high-dimensional interacting systems. Current interests include:
+My research combines analytical methods from statistical mechanics with computational approaches to study high-dimensional interacting systems, with applications ranging from complex networks and statistical inference to non-equilibrium and biological dynamics.
 
-- **Complex and disordered systems:** phase transitions, localization, structural properties and collective phenomena on random graphs and complex networks.
-- **Statistical inference and optimization:** message-passing algorithms, cavity methods and graphical models for inference and optimization problems.
-- **Non-equilibrium and stochastic dynamics:** spreading processes, transport, anomalous diffusion and interacting particle systems.
-- **Applications to complex systems:** theoretical approaches to problems arising in network science, biological systems and data-driven inference.
+<br>
 
-[Explore my research →](/research/)
+**[Explore my research →](/research/)**
 
 <br>
 
 ## Teaching
 
-I teach undergraduate and graduate courses in **theoretical and statistical physics** at Politecnico di Torino.
-
-I supervise **Bachelor's and Master's theses**, as well as **PhD and postdoctoral research projects**, mainly on topics related to statistical mechanics, complex systems, stochastic processes and statistical inference.
-
-[View teaching activities →](/teaching/)
+I teach undergraduate and graduate courses in **theoretical and statistical physics** at Politecnico di Torino. I supervise Bachelor's and Master's theses, as well as PhD and postdoctoral research projects, mainly on topics related to statistical mechanics, complex systems, stochastic processes and statistical inference.
 
 <br>
 
-## Latest
+**[View teaching activities →](/teaching/)**
 
-I use this website to keep my **research, publications and teaching activities** up to date.
+<br>
 
-For a complete list of my publications, see [Publications →](/publications/).
+## Publications
+
+My research has resulted in **70+ publications** in statistical physics, complex systems and related areas.
+
+<br>
+
+**[View publications →](/publications/)**
+
+<br>
+
+## News
+
+<ul class="news-timeline">
+  <li class="news-item">
+    <span class="news-date">2024/02</span>
+    <span>New paper accepted on message-passing methods in complex networks.</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2023/11</span>
+    <span>Invited talk at the European Conference on Complex Systems (ECCS).</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2023/04</span>
+    <span>Research grant awarded on statistical mechanics of contact-tracing algorithms.</span>
+  </li>
+</ul>
