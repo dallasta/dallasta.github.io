@@ -23,12 +23,14 @@ author:
   email                  : "luca.dallasta@polito.it"
 
   # Academic & Professional profiles
+  cv_pdf                 : "/assets/pdf/CV_DallAsta.pdf" # Carica il tuo PDF in assets/pdf/
   googlescholar          : "https://scholar.google.it/citations?user=nZ8H4nsAAAAJ"
   orcid                  : "https://orcid.org/0000-0002-3868-6188"
   scopus                 : "https://www.scopus.com/authid/detail.uri?authorId=12792618900"
   researchgate           : "https://www.researchgate.net/profile/Luca-DallAsta"
   github                 : "dallasta"
 
+  
 # Site settings
 teaser                   :
 breadcrumbs              : false
