@@ -5,17 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   
+  <!-- Font Google Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
+  <!-- Icone FontAwesome e Academicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
 <body class="{% if page.author_profile %}has-sidebar{% else %}no-sidebar{% endif %}">
 
+  <!-- Navigation Header -->
   <header>
     <div class="header-container">
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
@@ -27,21 +31,34 @@
     </div>
   </header>
 
+  <!-- Main Container -->
   <div class="main-container">
+    
     {% if page.author_profile %}
+    <!-- Sidebar con Foto e Info Profilo (stampata SOLO se author_profile: true) -->
     <aside class="sidebar">
       {% if site.author.avatar %}
         <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-img">
       {% endif %}
+      
       <h2 class="author-name">{{ site.author.name }}</h2>
-      <p class="author-bio">{{ site.author.bio }}</p>
+      
+      {% if site.author.bio %}
+        <p class="author-bio">{{ site.author.bio }}</p>
+      {% endif %}
+      
       <p class="author-affiliation">
-        <i class="fa-solid fa-building-columns"></i> <strong>{{ site.author.employer }}</strong><br>
-        <i class="fa-solid fa-location-dot"></i> {{ site.author.location }}
+        {% if site.author.employer %}
+          <i class="fa-solid fa-building-columns"></i> <strong>{{ site.author.employer }}</strong><br>
+        {% endif %}
+        {% if site.author.location %}
+          <i class="fa-solid fa-location-dot"></i> {{ site.author.location }}
+        {% endif %}
       </p>
       
       <hr class="sidebar-divider">
       
+      <!-- Link social / accademici -->
       <ul class="sidebar-links">
         {% if site.author.email %}
           <li><a href="mailto:{{ site.author.email }}"><i class="fa-solid fa-envelope"></i> Email</a></li>
@@ -65,14 +82,17 @@
     </aside>
     {% endif %}
 
+    <!-- Contenuto della pagina -->
     <main class="main-content">
       {{ content }}
     </main>
+
   </div>
 
+  <!-- Footer -->
   <footer>
     <div class="footer-container">
-      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Politecnico di Torino — Department of Applied Science and Technology.</p>
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }} — Politecnico di Torino</p>
     </div>
   </footer>
 
