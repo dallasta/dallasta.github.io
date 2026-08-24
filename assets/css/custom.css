@@ -281,3 +281,26 @@ footer {
     align-items: flex-start;
   }
 }
+
+/* Styling Sezione News */
+.news-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news-section li {
+  position: relative;
+  padding-left: 0;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.news-section strong {
+  color: var(--primary-color);
+  font-family: monospace;
+  font-size: 0.9rem;
+  background: #e6f0fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
