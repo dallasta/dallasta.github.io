@@ -3,6 +3,8 @@ layout: single
 title: "Research Topics"
 permalink: /research/
 author_profile: false
+sidebar:
+  nav: false
 ---
 
 <h2 class="section-title">Research Overview</h2>
