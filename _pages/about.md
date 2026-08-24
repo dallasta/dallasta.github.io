@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Luca Dall'Asta"
+title: ""
 author_profile: true
 ---
 
