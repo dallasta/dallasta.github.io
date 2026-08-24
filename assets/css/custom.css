@@ -133,13 +133,6 @@ h2.section-title {
   }
 }
 
-/* Nasconde la sidebar del profilo in tutte le pagine tranne la Home */
-body:not(.layout--home) .sidebar,
-body:not(.home) .author__avatar,
-body:not(.home) .author__content,
-body:not(.home) .author__urls-wrapper {
-  display: none !important;
-}
 
 /* Espande il contenuto principale al 100% di larghezza quando la sidebar è nascosta */
 body:not(.layout--home) .page__inner-wrap,
