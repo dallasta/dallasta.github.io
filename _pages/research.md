@@ -1,37 +1,68 @@
 ---
+layout: single
+title: "Research Topics"
 permalink: /research/
-title: "Research"
 author_profile: true
 ---
 
-# Research
+<h2 class="section-title">Research Overview</h2>
 
-My research uses ideas and techniques from statistical mechanics to study complex interacting systems, with an emphasis on theoretical understanding and mathematical modelling.
+Our research focuses on the application of **statistical physics to complex interacting systems**, combining analytical tools from non-equilibrium mechanics with computational algorithms to model physical, biological, and interdisciplinary phenomena.
 
-## Nonequilibrium statistical physics
+<div class="research-grid">
 
-I study systems driven out of equilibrium and the collective phenomena that emerge from local interactions, fluctuations and constraints.
+  <!-- Card 1 -->
+  <div class="research-card">
+    <img src="{{ '/assets/images/research-networks.png' | relative_url }}" class="research-card-img" alt="Disordered Systems & Complex Networks">
+    <div class="research-card-body">
+      <h3 class="research-card-title">Disordered Systems & Networks</h3>
+      <p class="research-card-text">
+        Phase transitions, structural vulnerability, network dismantling, and localization phenomena on sparse random graphs and complex topographies.
+      </p>
+      <div class="research-card-links">
+        Related papers:
+        <ul>
+          <li><a href="/publications/2016-network-dismantling">Network dismantling (2016)</a></li>
+          <li><a href="/publications/2006-vulnerability-of-weighted-networks">Weighted networks (2006)</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-## Disordered and complex systems
+  <!-- Card 2 -->
+  <div class="research-card">
+    <img src="{{ '/assets/images/research-epidemics.png' | relative_url }}" class="research-card-img" alt="Epidemic Inference">
+    <div class="research-card-body">
+      <h3 class="research-card-title">Epidemic Inference & Control</h3>
+      <p class="research-card-text">
+        Message-passing algorithms and statistical inference on graphical models to model epidemic propagation and optimize contact-tracing strategies.
+      </p>
+      <div class="research-card-links">
+        Related papers:
+        <ul>
+          <li><a href="/publications/2021-epidemic-mitigation-by-statistical-inference-from-contact-tracing-data">Epidemic mitigation (2021)</a></li>
+          <li><a href="/publications/2014-containing-epidemic-outbreaks-by-message-passing-techniques">Message passing (2014)</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-Disorder and heterogeneity can fundamentally change the behaviour of interacting systems. I am interested in theoretical models and analytical methods for understanding such effects.
+  <!-- Card 3 -->
+  <div class="research-card">
+    <img src="{{ '/assets/images/research-stochastic.png' | relative_url }}" class="research-card-img" alt="Stochastic Processes">
+    <div class="research-card-body">
+      <h3 class="research-card-title">Non-equilibrium Dynamics</h3>
+      <p class="research-card-text">
+        Stochastic processes, anomalous diffusion, and non-equilibrium steady states in transport phenomena and collective dynamics.
+      </p>
+      <div class="research-card-links">
+        Related papers:
+        <ul>
+          <li><a href="/publications/2005-statistical-theory-of-internet-exploration">Internet exploration (2005)</a></li>
+          <li><a href="/publications/2004-metric-features-of-a-dipolar-model">Dipolar model (2004)</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-## Collective dynamics
-
-A recurring theme of my work is how macroscopic behaviour emerges from microscopic interactions, including dynamical processes on structured systems.
-
-## Inference, optimization and statistical mechanics
-
-Methods from statistical physics can be used to understand inference and optimization problems, including the role of disorder, constraints and phase transitions.
-
-## Interdisciplinary applications
-
-I am interested in applications where statistical-mechanical ideas can provide new theoretical perspectives on problems arising in complex and data-rich systems.
-
----
-
-### Collaborations and projects
-
-This section will be expanded with current projects, collaborators, funding information and links to research groups.
-
-If you are a student interested in working on one of these topics, see the [Teaching](/teaching/) page for information on thesis projects.
+</div>
