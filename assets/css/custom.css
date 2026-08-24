@@ -1,306 +1,120 @@
-/* Import Font da Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary-color: #003366;       /* Blu Istituzionale Politecnico */
-  --primary-hover: #002244;
-  --accent-color: #0066cc;
-  --text-color: #24292e;
-  --text-muted: #57606a;
-  --bg-color: #f8f9fa;
+  --primary-color: #1a252c;       /* Antracite elegante stile Zwicker */
+  --accent-color: #0056b3;        /* Blu link accademico */
+  --text-main: #2d3748;
+  --text-muted: #6c757d;
+  --bg-main: #fcfcfc;
   --card-bg: #ffffff;
-  --border-color: #e1e4e8;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --border-light: #e9ecef;
+  --radius: 8px;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: var(--text-color);
-  background-color: var(--bg-color);
-  line-height: 1.65;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-main);
+  line-height: 1.7;
 }
 
-a {
-  color: var(--accent-color);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
+a { color: var(--accent-color); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--primary-color); text-decoration: underline; }
 
-a:hover {
-  color: var(--primary-color);
-  text-decoration: underline;
-}
-
-/* Header & Navigazione */
+/* Header Stile Zwicker */
 header {
   background: #ffffff;
-  border-bottom: 1px solid var(--border-color);
-  padding: 16px 0;
-  box-shadow: var(--shadow-sm);
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  border-bottom: 1px solid var(--border-light);
+  padding: 20px 0;
+  position: sticky; top: 0; z-index: 100;
 }
 
 .header-container {
-  max-width: 1050px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-header h1 {
-  font-size: 1.4rem;
-  font-weight: 700;
+  max-width: 1100px; margin: 0 auto; padding: 0 25px;
+  display: flex; justify-content: space-between; align-items: center;
 }
 
 header h1 a {
-  color: var(--primary-color);
-}
-
-header h1 a:hover {
-  text-decoration: none;
-}
-
-nav {
-  display: flex;
-  gap: 8px;
+  color: var(--primary-color); font-weight: 700; font-size: 1.35rem; letter-spacing: -0.3px;
 }
 
 nav a {
-  color: var(--text-muted);
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 6px 14px;
-  border-radius: 6px;
-  transition: all 0.2s ease;
+  color: var(--text-muted); font-weight: 500; font-size: 0.95rem; padding: 8px 16px; border-radius: var(--radius);
 }
 
 nav a:hover, nav a.active {
-  background: #e6f0fa;
-  color: var(--primary-color);
-  text-decoration: none;
+  color: var(--primary-color); background: #f1f3f5; text-decoration: none;
 }
 
-/* Layout Principale */
+/* Layout Main Container */
 .main-container {
-  max-width: 1050px;
-  margin: 35px auto;
-  padding: 0 20px;
-  display: flex;
-  gap: 35px;
-  align-items: flex-start;
+  max-width: 1100px; margin: 40px auto; padding: 0 25px;
+  display: flex; gap: 40px;
 }
 
 /* Sidebar Profilo */
 .sidebar {
-  flex: 0 0 260px;
-  background: var(--card-bg);
-  padding: 24px;
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
+  flex: 0 0 260px; background: var(--card-bg); padding: 25px;
+  border-radius: var(--radius); border: 1px solid var(--border-light); box-shadow: var(--shadow);
 }
 
 .profile-img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 18px auto;
-  border: 3px solid #ffffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 20px auto; display: block;
 }
 
-.author-name {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  text-align: center;
-  margin-bottom: 4px;
+.author-name { font-size: 1.3rem; font-weight: 700; color: var(--primary-color); text-align: center; }
+.author-bio { font-size: 0.9rem; color: var(--text-muted); text-align: center; margin-bottom: 15px; }
+.author-affiliation { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px; }
+
+.sidebar-links { list-style: none; padding-top: 15px; border-top: 1px solid var(--border-light); }
+.sidebar-links li { margin-bottom: 10px; }
+.sidebar-links a { font-size: 0.9rem; color: var(--text-main); display: flex; align-items: center; gap: 10px; font-weight: 500; }
+
+/* Content Area */
+.main-content { flex: 1; min-width: 0; }
+
+/* Section Titles */
+h2.section-title {
+  font-size: 1.5rem; font-weight: 700; color: var(--primary-color);
+  margin-bottom: 25px; border-bottom: 2px solid var(--primary-color); padding-bottom: 8px; display: inline-block;
 }
 
-.author-bio {
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  text-align: center;
-  margin-bottom: 16px;
-  line-height: 1.4;
+/* Grid Temi di Ricerca (Zwicker Style) */
+.research-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 20px;
 }
 
-.author-affiliation {
-  font-size: 0.88rem;
-  color: var(--text-muted);
-  line-height: 1.5;
-  margin-bottom: 15px;
+.research-card {
+  background: var(--card-bg); border: 1px solid var(--border-light);
+  border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column;
 }
 
-.sidebar-divider {
-  border: 0;
-  height: 1px;
-  background: var(--border-color);
-  margin: 15px 0;
+.research-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+
+.research-card-img {
+  width: 100%; height: 180px; object-fit: cover; border-bottom: 1px solid var(--border-light);
 }
 
-.sidebar-links {
-  list-style: none;
+.research-card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+.research-card-title { font-size: 1.15rem; font-weight: 600; color: var(--primary-color); margin-bottom: 10px; }
+.research-card-text { font-size: 0.92rem; color: var(--text-main); line-height: 1.6; margin-bottom: 15px; flex: 1; }
+
+.research-card-links { font-size: 0.85rem; font-weight: 600; border-top: 1px solid var(--border-light); padding-top: 12px; }
+
+/* Timeline News Stile Zwicker */
+.news-timeline { list-style: none; padding-left: 0; margin-top: 15px; }
+.news-item { display: flex; gap: 15px; margin-bottom: 15px; font-size: 0.95rem; }
+.news-date {
+  font-family: monospace; font-size: 0.85rem; font-weight: 700; background: #e9ecef;
+  color: var(--primary-color); padding: 3px 8px; border-radius: 4px; height: fit-content; white-space: nowrap;
 }
 
-.sidebar-links li {
-  margin-bottom: 10px;
-}
-
-.sidebar-links a {
-  color: var(--text-color);
-  font-size: 0.92rem;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 500;
-}
-
-.sidebar-links a i {
-  font-size: 1.1rem;
-  color: var(--primary-color);
-  width: 20px;
-  text-align: center;
-}
-
-.sidebar-links a:hover {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-/* Contenuto Principale */
-.main-content {
-  flex: 1;
-  background: var(--card-bg);
-  padding: 32px;
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
-  min-width: 0;
-}
-
-.main-content h2 {
-  color: var(--primary-color);
-  font-size: 1.6rem;
-  font-weight: 700;
-  border-bottom: 2px solid #e6f0fa;
-  padding-bottom: 8px;
-  margin-bottom: 20px;
-}
-
-.main-content h3 {
-  color: var(--primary-color);
-  font-size: 1.25rem;
-  margin-top: 25px;
-  margin-bottom: 12px;
-}
-
-/* Card Pubblicazioni */
-.publication-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  padding: 18px 22px;
-  margin-bottom: 16px;
-  transition: all 0.2s ease;
-}
-
-.publication-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-  border-color: #b3d1ff;
-}
-
-.publication-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  margin-bottom: 6px;
-  display: block;
-}
-
-.publication-venue {
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  font-style: italic;
-  margin-bottom: 8px;
-}
-
-/* Badges */
-.badge {
-  display: inline-block;
-  background: #e6f0fa;
-  color: var(--primary-color);
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 3px 10px;
-  border-radius: 12px;
-  margin-right: 8px;
-}
-
-/* Footer */
-footer {
-  background: #ffffff;
-  border-top: 1px solid var(--border-color);
-  padding: 25px 0;
-  margin-top: 60px;
-  font-size: 0.88rem;
-  color: var(--text-muted);
-  text-align: center;
-}
-
-/* Responsive Layout */
 @media (max-width: 820px) {
-  .main-container {
-    flex-direction: column;
-  }
-  
-  .sidebar {
-    width: 100%;
-    flex: none;
-  }
-
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
-/* Styling Sezione News */
-.news-section ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.news-section li {
-  position: relative;
-  padding-left: 0;
-  margin-bottom: 10px;
-  font-size: 0.95rem;
-}
-
-.news-section strong {
-  color: var(--primary-color);
-  font-family: monospace;
-  font-size: 0.9rem;
-  background: #e6f0fa;
-  padding: 2px 6px;
-  border-radius: 4px;
-  margin-right: 6px;
+  .main-container { flex-direction: column; }
+  .sidebar { width: 100%; flex: none; }
 }
