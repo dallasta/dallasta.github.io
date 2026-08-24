@@ -6,24 +6,31 @@ author_profile: true
 
 # Publications
 
-My publications are listed below. The page will be progressively populated from structured publication records.
+My research publications in statistical physics and complex systems.
 
-For the complete and up-to-date list, including citation metrics, please refer to:
-
-- [Google Scholar](https://scholar.google.com/citations?user=LucaDallAsta)
-- [ORCID](https://orcid.org/0000-0002-3868-6188)
+For citation metrics and an automatically maintained profile, see
+[Google Scholar](https://scholar.google.com/) and
+[ORCID](https://orcid.org/).
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
+
+{% assign current_year = "" %}
 {% for pub in pubs %}
+  {% assign pub_year = pub.date | date: "%Y" %}
+  {% if pub_year != current_year %}
+    {% assign current_year = pub_year %}
+    {% if forloop.first == false %}
+
+    {% endif %}
+## {{ current_year }}
+  {% endif %}
+
 ### {{ pub.title }}
 
 {{ pub.authors }}
 
-*{{ pub.venue }}*, {{ pub.date | date: "%Y" }}.
+*{{ pub.venue }}*
 
-{% if pub.paperurl %}[Paper]({{ pub.paperurl }}){% endif %}
-{% if pub.arxiv %} · [arXiv]({{ pub.arxiv }}){% endif %}
-{% if pub.doi %} · [DOI]({{ pub.doi }}){% endif %}
+{% if pub.paperurl %}[Paper]({{ pub.paperurl }}){% endif %}{% if pub.arxiv %} · [arXiv]({{ pub.arxiv }}){% endif %}{% if pub.doi %} · [DOI]({{ pub.doi }}){% endif %}
 
-{% unless forloop.last %}---{% endunless %}
 {% endfor %}
