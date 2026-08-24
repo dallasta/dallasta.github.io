@@ -2,6 +2,8 @@
 permalink: /talks/
 title: "Talks"
 author_profile: false
+sidebar:
+  nav: false
 ---
 
 # Talks and Presentations
