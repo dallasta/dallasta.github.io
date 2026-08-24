@@ -5,19 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   
-  <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- FontAwesome & Academicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
-<body>
+<body class="{% if page.author_profile %}has-sidebar{% else %}no-sidebar{% endif %}">
 
   <header>
     <div class="header-container">
@@ -31,6 +28,7 @@
   </header>
 
   <div class="main-container">
+    {% if page.author_profile %}
     <aside class="sidebar">
       {% if site.author.avatar %}
         <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-img">
@@ -65,6 +63,7 @@
         {% endif %}
       </ul>
     </aside>
+    {% endif %}
 
     <main class="main-content">
       {{ content }}
