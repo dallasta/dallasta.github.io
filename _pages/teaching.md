@@ -2,6 +2,8 @@
 permalink: /teaching/
 title: "Teaching"
 author_profile: false
+sidebar:
+  nav: false
 ---
 
 # Teaching
