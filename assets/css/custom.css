@@ -1,95 +1,283 @@
 /* Import Font da Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+:root {
+  --primary-color: #003366;       /* Blu Istituzionale Politecnico */
+  --primary-hover: #002244;
+  --accent-color: #0066cc;
+  --text-color: #24292e;
+  --text-muted: #57606a;
+  --bg-color: #f8f9fa;
+  --card-bg: #ffffff;
+  --border-color: #e1e4e8;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  color: #24292e;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   line-height: 1.65;
-  background-color: #fafbfc;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 /* Header & Navigazione */
 header {
   background: #ffffff;
-  padding: 20px 0;
-  border-bottom: 2px solid #e1e4e8;
-  margin-bottom: 35px;
+  border-bottom: 1px solid var(--border-color);
+  padding: 16px 0;
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 header h1 a {
-  color: #003366 !important; /* Blu Politecnico / Accademico */
-  font-weight: 700;
-  letter-spacing: -0.5px;
+  color: var(--primary-color);
+}
+
+header h1 a:hover {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
 }
 
 nav a {
-  color: #444;
+  color: var(--text-muted);
   font-weight: 500;
-  padding: 6px 12px;
+  font-size: 0.95rem;
+  padding: 6px 14px;
   border-radius: 6px;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-nav a:hover {
-  background: #f1f3f5;
-  color: #003366;
+nav a:hover, nav a.active {
+  background: #e6f0fa;
+  color: var(--primary-color);
   text-decoration: none;
+}
+
+/* Layout Principale */
+.main-container {
+  max-width: 1050px;
+  margin: 35px auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 35px;
+  align-items: flex-start;
 }
 
 /* Sidebar Profilo */
 .sidebar {
-  background: #ffffff;
+  flex: 0 0 260px;
+  background: var(--card-bg);
   padding: 24px;
   border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  border: 1px solid #e1e4e8;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
 }
 
-.sidebar img {
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  border: 3px solid #fff;
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 18px auto;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
-.sidebar h3 {
-  margin-top: 10px;
+.author-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
   margin-bottom: 4px;
-  color: #003366;
-  font-size: 1.3em;
 }
 
-/* Card delle Pubblicazioni */
+.author-bio {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.author-affiliation {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.sidebar-divider {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 15px 0;
+}
+
+.sidebar-links {
+  list-style: none;
+}
+
+.sidebar-links li {
+  margin-bottom: 10px;
+}
+
+.sidebar-links a {
+  color: var(--text-color);
+  font-size: 0.92rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.sidebar-links a i {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  width: 20px;
+  text-align: center;
+}
+
+.sidebar-links a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Contenuto Principale */
+.main-content {
+  flex: 1;
+  background: var(--card-bg);
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  min-width: 0;
+}
+
+.main-content h2 {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e6f0fa;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.main-content h3 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+/* Card Pubblicazioni */
 .publication-card {
-  background: #ffffff;
-  border: 1px solid #e1e4e8;
-  border-radius: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
   padding: 18px 22px;
   margin-bottom: 16px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: all 0.2s ease;
 }
 
 .publication-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: var(--shadow-md);
+  border-color: #b3d1ff;
 }
 
 .publication-title {
-  color: #003366;
+  font-size: 1.05rem;
   font-weight: 600;
-  text-decoration: none;
+  color: var(--primary-color);
+  margin-bottom: 6px;
+  display: block;
 }
 
-.publication-title:hover {
-  text-decoration: underline;
+.publication-venue {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 8px;
 }
 
-/* Badge Anno / Journal */
+/* Badges */
 .badge {
   display: inline-block;
   background: #e6f0fa;
-  color: #003366;
-  font-size: 0.8em;
+  color: var(--primary-color);
+  font-size: 0.78rem;
   font-weight: 600;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 12px;
   margin-right: 8px;
+}
+
+/* Footer */
+footer {
+  background: #ffffff;
+  border-top: 1px solid var(--border-color);
+  padding: 25px 0;
+  margin-top: 60px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* Responsive Layout */
+@media (max-width: 820px) {
+  .main-container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+    flex: none;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
