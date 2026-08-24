@@ -1,0 +1,65 @@
+<!usr/bin/env html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 960px; margin: 0 auto; padding: 20px; }
+    header { border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+    nav a { margin-right: 15px; text-decoration: none; color: #0366d6; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { display: flex; flex-wrap: wrap; gap: 30px; }
+    .sidebar { flex: 1; min-width: 220px; max-width: 260px; border-right: 1px solid #eee; padding-right: 20px; }
+    .sidebar img { width: 100%; max-width: 180px; border-radius: 50%; display: block; margin-bottom: 15px; }
+    .main-content { flex: 3; min-width: 300px; }
+    footer { margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><a href="{{ '/' | relative_url }}" style="text-decoration:none; color:inherit;">{{ site.title }}</a></h1>
+    <nav>
+      {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      {% if site.author.avatar %}
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+      {% endif %}
+      <h3>{{ site.author.name }}</h3>
+      <p>{{ site.author.bio }}</p>
+      <p><strong>{{ site.author.employer }}</strong><br>{{ site.author.location }}</p>
+      <hr>
+      <p>📧 <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      {% if site.author.googlescholar %}
+        <p>🎓 <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a></p>
+      {% endif %}
+      {% if site.author.orcid %}
+        <p>🆔 <a href="{{ site.author.orcid }}" target="_blank">ORCID</a></p>
+      {% endif %}
+      {% if site.author.scopus %}
+        <p>🔬 <a href="{{ site.author.scopus }}" target="_blank">Scopus</a></p>
+      {% endif %}
+      {% if site.author.researchgate %}
+        <p>🌐 <a href="{{ site.author.researchgate }}" target="_blank">ResearchGate</a></p>
+      {% endif %}
+    </div>
+
+    <div class="main-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Powered by GitHub Pages & Jekyll.</p>
+  </footer>
+
+</body>
+</html>
