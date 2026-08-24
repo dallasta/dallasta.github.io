@@ -1,17 +1,19 @@
-{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
-{% if selected_pubs.size > 0 %}
-## Selected publications
-
-{% for pub in selected_pubs limit:6 %}
-### {{ pub.title }}
-
-{{ pub.authors }}
-
-*{{ pub.venue }}*, {{ pub.date | date: "%Y" }}.
-
-{% if pub.paperurl %}[Paper]({{ pub.paperurl }}){% endif %}{% if pub.arxiv %} · [arXiv]({{ pub.arxiv }}){% endif %}{% if pub.doi %} · [DOI]({{ pub.doi }}){% endif %}
-
-{% endfor %}
-
-[All publications →](/publications/)
-{% endif %}
+<div class="publications-list">
+  {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+  {% for pub in sorted_pubs %}
+    <div class="publication-card">
+      <a href="{{ pub.url | relative_url }}" class="publication-title">{{ pub.title }}</a>
+      <div class="publication-venue">
+        {% if pub.date %}
+          <span class="badge">{{ pub.date | date: "%Y" }}</span>
+        {% endif %}
+        {% if pub.venue %}
+          <em>{{ pub.venue }}</em>
+        {% endif %}
+      </div>
+      {% if pub.excerpt %}
+        <p style="font-size: 0.9rem; color: #444; margin-top: 8px;">{{ pub.excerpt | strip_html | truncate: 220 }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
