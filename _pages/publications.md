@@ -2,6 +2,8 @@
 permalink: /publications/
 title: "Publications"
 author_profile: false
+sidebar:
+  nav: false
 ---
 
 # Publications
