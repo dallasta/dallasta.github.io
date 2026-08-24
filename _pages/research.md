@@ -2,7 +2,7 @@
 layout: single
 title: "Research Topics"
 permalink: /research/
-author_profile: true
+author_profile: false
 ---
 
 <h2 class="section-title">Research Overview</h2>
