@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article>
+  <h2>{{ page.title }}</h2>
+  {% if page.venue %}
+    <p><em>{{ page.venue }}</em>{% if page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
+  {% endif %}
+  
+  {{ content }}
+  
+  {% if page.paperurl %}
+    <p><a href="{{ page.paperurl }}" target="_blank">📄 Read Paper / Download PDF</a></p>
+  {% endif %}
+</article>
