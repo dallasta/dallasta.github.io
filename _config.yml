@@ -12,22 +12,22 @@ url                      : "https://dallasta.github.io"
 baseurl                  : ""
 repository               : "dallasta/dallasta.github.io"
 
-# Author profile
+# Author profile (Mostrato nella barra laterale)
 author:
-  avatar           : "foto.png"
-  name             : "Luca Dall'Asta"
-  bio              : "Associate Professor of Theoretical Physics"
-  location         : "Turin, Italy"
-  employer         : "Politecnico di Torino"
-  uri              : "https://www.polito.it/"
-  email            : "luca.dallasta@polito.it"
+  avatar                 : "foto.png"
+  name                   : "Luca Dall'Asta"
+  bio                    : "Associate Professor of Theoretical Physics"
+  location               : "Turin, Italy"
+  employer               : "Politecnico di Torino"
+  uri                    : "https://www.polito.it/"
+  email                  : "luca.dallasta@polito.it"
 
-  # Academic profiles
-  googlescholar    : "https://scholar.google.com/citations?user=LucaDallAsta"
-  orcid            : "https://orcid.org/0000-0002-3868-6188"
-
-  # Professional profiles
-  github           : "dallasta"
+  # Academic & Professional profiles
+  googlescholar          : "https://scholar.google.it/citations?user=nZ8H4nsAAAAJ"
+  orcid                  : "https://orcid.org/0000-0002-3868-6188"
+  scopus                 : "https://www.scopus.com/authid/detail.uri?authorId=12792618900"
+  researchgate           : "https://www.researchgate.net/profile/Luca-DallAsta"
+  github                 : "dallasta"
 
 # Site settings
 teaser                   :
@@ -53,7 +53,10 @@ social:
   type                   : "Person"
   name                   : "Luca Dall'Asta"
   links:
+    - "https://scholar.google.it/citations?user=nZ8H4nsAAAAJ"
     - "https://orcid.org/0000-0002-3868-6188"
+    - "https://www.scopus.com/authid/detail.uri?authorId=12792618900"
+    - "https://www.researchgate.net/profile/Luca-DallAsta"
     - "https://github.com/dallasta"
 
 analytics:
@@ -76,7 +79,7 @@ kramdown:
   auto_ids: true
   toc_levels: 1..6
 
-# Collections
+# Collections (Per attivare automaticamente pubblicazioni, didattica e seminari)
 collections:
   teaching:
     output: true
