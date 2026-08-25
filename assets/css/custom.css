@@ -129,7 +129,7 @@ h2.section-title {
 /* Griglia dei temi di ricerca a 3 colonne per schermi grandi */
 @media (min-width: 900px) {
   .research-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
