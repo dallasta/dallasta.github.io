@@ -247,3 +247,8 @@ body:not(.layout--home) .page {
 .sidebar-links li.cv-link a:hover i {
   color: #ffffff;
 }
+
+.page__hero--overlay {
+  min-height: 180px !important;
+  max-height: 250px !important;
+}
