@@ -1,9 +1,13 @@
 ---
 layout: single
+title: "Statistical Inference in Complex Networks"
 permalink: /research/statistical-inference/
 author_profile: false
 sidebar:
   nav: false
+header:
+  overlay_image: /assets/images/banner-statistical-inference.jpg
+  overlay_filter: 0.5
 ---
 
 <!-- Full-width hero banner container -->
