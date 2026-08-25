@@ -1,15 +1,39 @@
 ---
 layout: single
-title: "Statistical Inference in Complex Networks"
 permalink: /research/statistical-inference/
 author_profile: false
 sidebar:
   nav: false
-header:
-  overlay_image: /assets/images/banner-statistical-inference.jpg
-  overlay_filter: 0.55  # Opzionale: scurisce leggermente l'immagine per rendere il testo del titolo ben leggibile
-  caption: "Research Area: Statistical Inference"
 ---
+
+<!-- Full-width hero banner container -->
+<div style="
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 220px;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/assets/images/banner-statistical-inference.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2rem;
+  margin-bottom: 2.5rem;
+">
+  <h1 style="
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  ">
+    Statistical Inference in Complex Networks
+  </h1>
+</div>
 
 Statistical inference in high-dimensional interacting systems is a central theme of my research. I develop analytical and computational methods inspired by statistical mechanics to reconstruct hidden variables, infer interactions, and characterize dynamical processes from partial and noisy observations.
 
