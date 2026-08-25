@@ -1,11 +1,39 @@
 ---
 layout: single
-title: "Epidemic Inference & Control"
 permalink: /research/epidemic-inference/
 author_profile: false
 sidebar:
   nav: false
 ---
+
+<!-- Banner d'intestazione a tutta larghezza (Inerenza Epidemica) -->
+<div style="
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 220px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ site.baseurl }}/assets/images/banner-epidemic-inference.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2rem;
+  margin-bottom: 2.5rem;
+">
+  <h1 style="
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  ">
+    Epidemic Inference & Control
+  </h1>
+</div>
 
 Epidemic spreading on contact networks provides a particularly rich setting in which to study inference, prediction, and control in complex dynamical systems.
 
