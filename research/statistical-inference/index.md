@@ -15,7 +15,7 @@ sidebar:
   margin-left: -50vw;
   margin-right: -50vw;
   height: 220px;
-  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/assets/images/banner-statistical-inference.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/assets/images/banner-statistical-inference.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
