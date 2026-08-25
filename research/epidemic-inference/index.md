@@ -1,10 +1,15 @@
 ---
 layout: single
+title: "Epidemic Inference & Control"
 permalink: /research/epidemic-inference/
 author_profile: false
 sidebar:
   nav: false
+header:
+  overlay_image: /assets/images/banner-epidemic-inference.jpg
+  overlay_filter: 0.5
 ---
+
 
 <!-- Banner d'intestazione a tutta larghezza (Inerenza Epidemica) -->
 <div style="
