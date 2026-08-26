@@ -5,7 +5,41 @@ permalink: /research/molecular-organization/
 author_profile: false
 sidebar:
   nav: false
+header:
+  overlay_image: /assets/images/banner-molecular-organization.png
+  overlay_filter: 0.5
 ---
+
+
+<!-- Banner d'intestazione a tutta larghezza (Inerenza Epidemica) -->
+<div style="
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 220px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ site.baseurl }}/assets/images/banner-molecular-organization.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2rem;
+  margin-bottom: 2.5rem;
+">
+  <h1 style="
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  ">
+    Molecular Organization & Phase Separation
+  </h1>
+</div>
+
 
 Biological systems achieve remarkable levels of organization through the collective behaviour of many interacting molecular components. My research in this area uses **statistical physics to understand how molecular interactions, phase separation, and non-equilibrium processes generate spatial organization in biological systems**.
 
