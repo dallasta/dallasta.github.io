@@ -6,7 +6,7 @@ author_profile: false
 sidebar:
   nav: false
 header:
-  overlay_image: /assets/images/banner-epidemic-inference.jpg
+  overlay_image: /assets/images/banner-epidemic-inference.png
   overlay_filter: 0.5
 ---
 
