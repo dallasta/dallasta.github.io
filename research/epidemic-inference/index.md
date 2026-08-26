@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Epidemic Inference & Control"
 permalink: /research/epidemic-inference/
 author_profile: false
 sidebar:
