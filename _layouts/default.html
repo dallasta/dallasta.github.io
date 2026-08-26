@@ -4,28 +4,48 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  
+
   <!-- Font Google Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
   <!-- Icone FontAwesome e Academicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <!-- Research dropdown navigation -->
+  <link rel="stylesheet" href="{{ '/assets/css/research-dropdown.css' | relative_url }}">
 </head>
 <body class="{% if page.author_profile %}has-sidebar{% else %}no-sidebar{% endif %}">
-
   <!-- Navigation Header -->
   <header>
     <div class="header-container">
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav>
+
+      <nav class="main-navigation" aria-label="Main navigation">
         {% for item in site.data.navigation.main %}
-          <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+          {% if item.children %}
+            <details class="nav-dropdown">
+              <summary class="{% if page.url contains '/research/' %}active{% endif %}">
+                {{ item.title }} <span class="nav-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="nav-dropdown-menu">
+                {% for child in item.children %}
+                  <a href="{{ child.url | relative_url }}"
+                     {% if page.url == child.url %}class="active"{% endif %}>
+                    {{ child.title }}
+                  </a>
+                {% endfor %}
+              </div>
+            </details>
+          {% else %}
+            <a href="{{ item.url | relative_url }}"
+               {% if page.url == item.url %}class="active"{% endif %}>
+              {{ item.title }}
+            </a>
+          {% endif %}
         {% endfor %}
       </nav>
     </div>
@@ -34,20 +54,19 @@
   <!-- Main Container -->
   <div class="main-container">
 
-    
 {% if page.author_profile %}
     <!-- Sidebar con Profilo, Full CV e Link Bibliometrici -->
     <aside class="sidebar">
       {% if site.author.avatar %}
         <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-img">
       {% endif %}
-      
+
       <h2 class="author-name">{{ site.author.name }}</h2>
-      
+
       {% if site.author.bio %}
         <p class="author-bio">{{ site.author.bio }}</p>
       {% endif %}
-      
+
       <p class="author-affiliation">
         {% if site.author.employer %}
           <i class="fa-solid fa-building-columns"></i> <strong>{{ site.author.employer }}</strong><br>
@@ -56,9 +75,9 @@
           <i class="fa-solid fa-location-dot"></i> {{ site.author.location }}
         {% endif %}
       </p>
-      
+
       <hr class="sidebar-divider">
-      
+
       <!-- Link CV + Profili Bibliometrici -->
       <ul class="sidebar-links">
         {% if site.author.cv_pdf %}
