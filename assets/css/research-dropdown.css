@@ -1,0 +1,126 @@
+/* =========================================================
+   Research dropdown navigation
+   Additive stylesheet: does not modify custom.css
+   ========================================================= */
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Make <details> behave like an ordinary navigation item */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown summary {
+  list-style: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.nav-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-dropdown summary:hover,
+.nav-dropdown summary.active {
+  color: var(--primary-color);
+  background: #f1f3f5;
+}
+
+.nav-chevron {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 0.72em;
+  transition: transform 0.18s ease;
+}
+
+.nav-dropdown[open] .nav-chevron {
+  transform: rotate(180deg);
+}
+
+/* Dropdown panel */
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 290px;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+  z-index: 1000;
+}
+
+/* Small invisible bridge between the menu item and panel */
+.nav-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  right: 20px;
+  width: 80px;
+  height: 9px;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.35;
+  padding: 10px 12px;
+  border-radius: 6px;
+  white-space: normal;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a.active {
+  color: var(--primary-color);
+  background: #f1f3f5;
+  text-decoration: none;
+}
+
+/* The first item acts as the link to the Research overview */
+.nav-dropdown-menu a:first-child {
+  border-bottom: 1px solid var(--border-light);
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 4px;
+  padding-bottom: 11px;
+}
+
+/* Mobile layout */
+@media (max-width: 820px) {
+  .header-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .main-navigation {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-dropdown-menu {
+    position: absolute;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    min-width: min(320px, calc(100vw - 40px));
+  }
+
+  .nav-dropdown-menu::before {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+}
