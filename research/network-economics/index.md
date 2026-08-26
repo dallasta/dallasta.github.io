@@ -5,7 +5,11 @@ permalink: /research/network-economics/
 author_profile: false
 sidebar:
   nav: false
+header:
+  overlay_image: /assets/images/banner-network-economics.jpg
+  overlay_filter: 0.5
 ---
+
 
 Networks provide the interaction structure through which individual decisions give rise to collective outcomes. My research in this area uses **statistical physics and network theory to study strategic interactions, coordination, control, and collective behaviour in networked systems**.
 
