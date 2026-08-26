@@ -2,13 +2,23 @@
 main:
   - title: "About"
     url: /
-    
+
   - title: "Research"
     url: /research/
+    children:
+      - title: "Research overview"
+        url: /research/
+      - title: "Statistical Inference in Complex Networks"
+        url: /research/statistical-inference/
+      - title: "Epidemic Inference & Control"
+        url: /research/epidemic-inference/
+      - title: "Networks, Games & Collective Behaviour"
+        url: /research/network-economics/
+      - title: "Molecular Organization & Phase Separation"
+        url: /research/molecular-organization/
 
   - title: "Publications"
     url: /publications/
 
   - title: "Teaching"
     url: /teaching/
-
