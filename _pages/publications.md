@@ -12,10 +12,6 @@ For citation metrics and an automatically maintained profile, see [Google Schola
 
 <br>
 
----
-
-<br>
-
 ## Preprints
 
 {% assign preprints = site.publications | where: "preprint", true | sort: "date" | reverse %}
@@ -35,9 +31,7 @@ For citation metrics and an automatically maintained profile, see [Google Schola
 {% endif %}
 
 <br>
-
 ---
-
 <br>
 
 ## Published Papers
