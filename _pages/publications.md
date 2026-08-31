@@ -6,9 +6,9 @@ sidebar:
   nav: false
 ---
 
-[Google Scholar](https://scholar.google.com/){: .btn .btn--primary .btn--small} [ORCID](https://orcid.org/){: .btn .btn--info .btn--small}
+My research publications in statistical physics and complex systems.
 
-*Research publications in statistical physics and complex systems.*
+For citation metrics and an automatically maintained profile, see [Google Scholar](https://scholar.google.com/) and [ORCID](https://orcid.org/).
 
 ## Preprints
 
