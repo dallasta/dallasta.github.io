@@ -10,6 +10,8 @@ My research publications in statistical physics and complex systems.
 
 For citation metrics and an automatically maintained profile, see [Google Scholar](https://scholar.google.com/) and [ORCID](https://orcid.org/).
 
+<br>
+
 ## Preprints
 
 {% assign preprints = site.publications | where: "preprint", true | sort: "date" | reverse %}
@@ -27,6 +29,8 @@ For citation metrics and an automatically maintained profile, see [Google Schola
 {% else %}
 *No current preprints.*
 {% endif %}
+
+<br>
 
 ## Published Papers
 
