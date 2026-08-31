@@ -8,7 +8,7 @@ sidebar:
 
 My research publications in statistical physics and complex systems.
 
-For citation metrics and an automatically maintained profile, see [Google Scholar](https://scholar.google.com/) and [ORCID](https://orcid.org/).
+For citation metrics and an automatically maintained profile, see [Google Scholar](https://scholar.google.it/citations?user=nZ8H4nsAAAAJ&hl=it) and [ORCID](https://orcid.org/0000-0003-1630-8723).
 
 ## Preprints
 
