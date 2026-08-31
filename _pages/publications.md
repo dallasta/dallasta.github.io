@@ -6,8 +6,9 @@ sidebar:
   nav: false
 ---
 
-*Statistical physics and complex systems.*  
- Profiles: [Google Scholar](https://scholar.google.com/) · [ORCID](https://orcid.org/)
+[Google Scholar](https://scholar.google.com/){: .btn .btn--primary .btn--small} [ORCID](https://orcid.org/){: .btn .btn--info .btn--small}
+
+*Research publications in statistical physics and complex systems.*
 
 ## Preprints
 
