@@ -10,6 +10,11 @@ My research publications in statistical physics and complex systems.
 
 For citation metrics and an automatically maintained profile, see [Google Scholar](https://scholar.google.com/) and [ORCID](https://orcid.org/).
 
+
+<br>
+
+---
+
 <br>
 
 ## Preprints
