@@ -6,28 +6,77 @@ sidebar:
   nav: false
 ---
 
-# Teaching
-
 I teach courses in theoretical and statistical physics at the Politecnico di Torino.
 
-## Courses
-
-Course pages will contain the syllabus, lecture notes, exercises, announcements and useful resources for students.
-
-## Student projects and theses
-
-I supervise Bachelor's, Master's and PhD projects in theoretical physics and complex systems.
-
-Typical projects combine analytical work, numerical simulations and computational data analysis.
-
-### How to contact me
-
-Students interested in a thesis or research project are welcome to contact me by email. A short description of your interests and your current degree programme is useful.
+<br>
 
 ---
 
-## Resources
+<br>
 
-Course-specific material will be linked here as it becomes available.
+### Current Courses
 
-> **For students:** I will use this page primarily as a gateway to course material and thesis opportunities. Official course information remains on the Politecnico di Torino teaching portal.
+#### Field Theory and Critical Phenomena
+Introduction to quantum and classical field theories, continuous phase transitions, scale invariance, and the renormalization group framework.
+* **Course Info:** [Politecnico di Torino Official Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SPPYR&p_a_acc=2028&p_header=S&p_lang=IT&multi=N)
+* **Resources:**
+  * [Lecture Notes](#) *(coming soon)*
+  * [Exercises & Problem Sets](#) *(coming soon)*
+  * [Jupyter Notebooks](#) *(coming soon)*
+
+#### Physics of Interacting Agents
+Statistical physics approaches to collective behavior, complex networks, evolutionary dynamics, and socio-economic systems.
+* **Course Info:** [Politecnico di Torino Official Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01VTIYR&p_a_acc=2027&p_header=S&p_lang=IT&multi=N)
+* **Resources:**
+  * [Lecture Notes](#) *(coming soon)*
+  * [Code & Notebooks](#) *(coming soon)*
+
+<br>
+
+---
+
+<br>
+
+### Selected Past Courses
+
+#### Optimal Control and Game Theory
+Mathematical foundations of optimal control, dynamic programming, differential games, and mean-field game theory with applications to physics, economics, and multi-agent systems.
+* **Resources:**
+  * [Lecture Notes](#) *(link / file)*
+
+#### Models and Algorithms
+Foundational models in complex systems, optimization methods, and algorithmic approaches for inference, glass dynamics, and graphical models.
+* **Resources:**
+  * [Syllabus / Course Overview](https://www.carloalberto.org/wp-content/uploads/2021/07/ModelsAlgo_2021.pdf)
+  * [Lecture Notes](#) *(link / file)*
+
+#### Kinetics of Phase Transitions
+Non-equilibrium dynamics, domain growth, spinodal decomposition, and nucleation processes in statistical physics.
+* **Resources:**
+  * [Lecture Notes](#) *(link / file)*
+
+<br>
+
+---
+
+<br>
+
+### Other Courses Taught
+
+* **Complex Systems Modeling Project**: Hands-on projects and computational modeling in complex systems.
+  * [Python Notebooks](#) *(link)*
+* **Physics I**: Classical mechanics and thermodynamics.
+  * [Exercise Sets & Solutions](#) *(link)*
+* **Physics II**: Electromagnetism and wave optics.
+
+<br>
+
+---
+
+<br>
+
+### Student Projects & Supervision
+
+I supervise Bachelor's, Master's, and PhD thesis projects in theoretical physics, statistical mechanics, and complex systems. Projects typically combine analytical methods with numerical simulations and computational data analysis.
+
+> **For prospective students:** If you are interested in pursuing a thesis or research project, please feel free to reach out via email. Include a brief summary of your background, degree program, and topics of interest.
