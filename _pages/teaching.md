@@ -6,7 +6,7 @@ sidebar:
   nav: false
 ---
 
-I teach courses in theoretical and statistical physics at the Politecnico di Torino.
+Currently teaching two courses at the M.Sc. in Physics of Complex Systems at the Politecnico di Torino.
 
 <br>
 
@@ -17,15 +17,19 @@ I teach courses in theoretical and statistical physics at the Politecnico di Tor
 ### Current Courses
 
 #### Field Theory and Critical Phenomena
-Introduction to quantum and classical field theories, continuous phase transitions, scale invariance, and the renormalization group framework.
+The course provides an introduction to statistical field theory and its applications to phase transitions and critical phenomena in complex systems. 
 * **Course Info:** [Politecnico di Torino Official Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SPPYR&p_a_acc=2028&p_header=S&p_lang=IT&multi=N)
 * **Resources:**
+  * [Slides](#) *(coming soon)*
   * [Lecture Notes](#) *(coming soon)*
+  * [Handouts](#) *(coming soon)*
+
 
 #### Physics of Interacting Agents
 Statistical physics approaches to collective behavior, complex networks, evolutionary dynamics, and socio-economic systems.
 * **Course Info:** [Politecnico di Torino Official Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01VTIYR&p_a_acc=2027&p_header=S&p_lang=IT&multi=N)
 * **Resources:**
+  * [Slides](#) *(coming soon)*
   * [Lecture Notes](#) *(coming soon)*
   * [Code & Notebooks](#) *(coming soon)*
 
