@@ -21,8 +21,6 @@ Introduction to quantum and classical field theories, continuous phase transitio
 * **Course Info:** [Politecnico di Torino Official Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SPPYR&p_a_acc=2028&p_header=S&p_lang=IT&multi=N)
 * **Resources:**
   * [Lecture Notes](#) *(coming soon)*
-  * [Exercises & Problem Sets](#) *(coming soon)*
-  * [Jupyter Notebooks](#) *(coming soon)*
 
 #### Physics of Interacting Agents
 Statistical physics approaches to collective behavior, complex networks, evolutionary dynamics, and socio-economic systems.
