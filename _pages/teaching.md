@@ -27,31 +27,27 @@ fluctuations, scale invariance, universality, and renormalization group
 methods. The same ideas are applied to selected problems in
 non-equilibrium and quantum statistical physics.
 
-**Syllabus**
+    1.  **Self-similarity and scale invariance**
+      -   Preferences, choice, and utility functions
+      -   Decisions under risk and Expected Utility Theory
+      -   Sequential decision problems and information processing
+      -   Optimal planning and dynamic programming
+      -   Bellman equation and Markov Decision Processes
+      -   Introduction to reinforcement learning
+    2.  **Multi-agent interactions**
+      -   Normal-form games and strategic interaction
+      -   Dominance, best responses, and Nash equilibria
+      -   Mixed strategies and Nash's theorem
+      -   Extensive-form and repeated games
+      -   Bounded rationality, social learning, and herding
+      -   Population dynamics and evolutionary game theory
+    3.  **Agent-based modeling and computational applications**
+      -   Competition, cooperation, and mutualism
+      -   Opinion dynamics, consensus, and social norms
+      -   Collective motion in swarms and flocks
+      -   Spatial segregation and pedestrian dynamics
+      -   Financial markets, price formation, bubbles, and crashes
 
-  * 1.  **Landau theory and mean-field approximation**
-      -   Phenomenological description of phase transitions
-      -   Symmetry breaking, Goldstone modes, and domain walls
-      -   Gaussian integrals, fluctuations, and the Ginzburg criterion
-  * 2.  **Scaling and renormalization**
-      -   Scale invariance and scaling theory
-      -   Coarse-graining and effective Hamiltonians
-      -   Wilson's momentum-shell renormalization group
-      -   Fixed points and critical exponents
-  * 3.  **Perturbative renormalization group**
-      -   Perturbation theory and Feynman diagrams
-      -   The φ⁴ and O(N) field theories
-      -   Power counting, divergences, and dimensional regularization
-      -    Renormalization and RG flow equations
-      -   Wilson-Fisher fixed point and critical exponents
-      -   Introduction to functional renormalization group methods
-  * 4.  **Applications of statistical field theory**
-      -   Non-equilibrium critical dynamics
-      -   Response functional methods
-      -   Interface growth and universality classes
-      -   Reaction-diffusion systems and absorbing phase transitions
-      -   Slow relaxation and ergodicity breaking
-      -   Quantum phase transitions and path-integral methods
 
 *   **Course Info:** [Politecnico di Torino Official
     Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SPPYR&p_a_acc=2026&p_header=S&p_lang=IT&multi=N)
@@ -67,7 +63,7 @@ The course introduces statistical-physics approaches to the modeling of
 systems composed of interacting agents, with applications to
 socio-economic and biological systems. It focuses on how individual
 decision-making and local interactions can generate collective
-phenomena, combining game theory, dynamical systems, and agent-based
+phenomena, combining game theory, optimal planning and control, dynamical systems, and agent-based
 computational modeling.
 
 **Syllabus**
