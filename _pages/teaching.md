@@ -1,19 +1,19 @@
 ---
-author_profile: false
 permalink: /teaching/
+title: "Teaching"
+author_profile: false
 sidebar:
   nav: false
-title: Teaching
 ---
 
 Currently teaching two courses at the M.Sc. in Physics of Complex
 Systems at the Politecnico di Torino.
 
-`<br>`{=html}
+<br>
 
-------------------------------------------------------------------------
+---
 
-`<br>`{=html}
+<br>
 
 ### Current Courses
 
@@ -29,38 +29,37 @@ non-equilibrium and quantum statistical physics.
 
 **Syllabus**
 
-1.  **Landau theory and mean-field approximation**
-    -   Phenomenological description of phase transitions
-    -   Symmetry breaking, Goldstone modes, and domain walls
-    -   Gaussian integrals, fluctuations, and the Ginzburg criterion
-2.  **Scaling and renormalization**
-    -   Scale invariance and scaling theory
-    -   Coarse-graining and effective Hamiltonians
-    -   Wilson's momentum-shell renormalization group
-    -   Fixed points and critical exponents
-3.  **Perturbative renormalization group**
-    -   Perturbation theory and Feynman diagrams
-    -   The φ⁴ and O(N) field theories
-    -   Power counting, divergences, and dimensional regularization
-    -   Renormalization and RG flow equations
-    -   Wilson-Fisher fixed point and critical exponents
-    -   Introduction to functional renormalization group methods
-4.  **Applications of statistical field theory**
-    -   Non-equilibrium critical dynamics
-    -   Response functional methods
-    -   Interface growth and universality classes
-    -   Reaction-diffusion systems and absorbing phase transitions
-    -   Slow relaxation and ergodicity breaking
-    -   Quantum phase transitions and path-integral methods
+  * 1.  **Landau theory and mean-field approximation**
+      -   Phenomenological description of phase transitions
+      -   Symmetry breaking, Goldstone modes, and domain walls
+      -   Gaussian integrals, fluctuations, and the Ginzburg criterion
+  * 2.  **Scaling and renormalization**
+      -   Scale invariance and scaling theory
+      -   Coarse-graining and effective Hamiltonians
+      -   Wilson's momentum-shell renormalization group
+      -   Fixed points and critical exponents
+  * 3.  **Perturbative renormalization group**
+      -   Perturbation theory and Feynman diagrams
+      -   The φ⁴ and O(N) field theories
+      -   Power counting, divergences, and dimensional regularization
+      -    Renormalization and RG flow equations
+      -   Wilson-Fisher fixed point and critical exponents
+      -   Introduction to functional renormalization group methods
+  * 4.  **Applications of statistical field theory**
+      -   Non-equilibrium critical dynamics
+      -   Response functional methods
+      -   Interface growth and universality classes
+      -   Reaction-diffusion systems and absorbing phase transitions
+      -   Slow relaxation and ergodicity breaking
+      -   Quantum phase transitions and path-integral methods
 
-*60 hours · 6 ECTS · 2nd year, 1st term*
-
--   **Course Info:** [Politecnico di Torino Official
+*   **Course Info:** [Politecnico di Torino Official
     Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SPPYR&p_a_acc=2026&p_header=S&p_lang=IT&multi=N)
--   **Resources:**
+*   **Resources:**
     -   [Slides](#) *(coming soon)*
     -   [Lecture Notes](#) *(coming soon)*
     -   [Handouts](#) *(coming soon)*
+
 
 #### Physics of Interacting Agents
 
