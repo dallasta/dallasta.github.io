@@ -27,32 +27,21 @@ fluctuations, scale invariance, universality, and renormalization group
 methods. The same ideas are applied to selected problems in
 non-equilibrium and quantum statistical physics.
 
-    1.  **Self-similarity and scale invariance**
-      -   Preferences, choice, and utility functions
-      -   Decisions under risk and Expected Utility Theory
-      -   Sequential decision problems and information processing
-      -   Optimal planning and dynamic programming
-      -   Bellman equation and Markov Decision Processes
-      -   Introduction to reinforcement learning
-    2.  **Multi-agent interactions**
-      -   Normal-form games and strategic interaction
-      -   Dominance, best responses, and Nash equilibria
-      -   Mixed strategies and Nash's theorem
-      -   Extensive-form and repeated games
-      -   Bounded rationality, social learning, and herding
-      -   Population dynamics and evolutionary game theory
-    3.  **Agent-based modeling and computational applications**
-      -   Competition, cooperation, and mutualism
-      -   Opinion dynamics, consensus, and social norms
-      -   Collective motion in swarms and flocks
-      -   Spatial segregation and pedestrian dynamics
-      -   Financial markets, price formation, bubbles, and crashes
-
+  1.  **Self-similarity and scale invariance** ([Slides](#))
+  2.  **Introduction to percolation theory** ([Slides](#))
+  3.  **Mean-field Theory and Ginzburg-Landau Approach** 
+  4.  **Gaussian integrals and Wick's theorem** 
+  5.  **Gaussian fluctuations and breakdown of Mean-Field Theory** 
+  6.  **From the scaling hypothesis to the Renormalization Group** 
+  7.  **Perturbative Momentum Shell Renormalization Group** 
+  8.  **Dynamical Critical Phenomena** 
+  9.  **Non-equilibrium critical phenomena: Directed Percolation and beyond**
+  10. **Quantum Phase Transitions**
+    
 
 *   **Course Info:** [Politecnico di Torino Official
     Guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SPPYR&p_a_acc=2026&p_header=S&p_lang=IT&multi=N)
 *   **Resources:**
-    -   [Slides](#) *(coming soon)*
     -   [Lecture Notes](#) *(coming soon)*
     -   [Handouts](#) *(coming soon)*
 
