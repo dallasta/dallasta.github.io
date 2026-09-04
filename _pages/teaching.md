@@ -139,8 +139,44 @@ Electromagnetism and wave optics.
 
 ## Student Projects & Supervision
 
-<br>
-
-I supervise Bachelor's, Master's, and PhD thesis projects in theoretical physics, statistical mechanics, and complex systems. Projects typically combine analytical methods with numerical simulations and computational data analysis.
+I supervise Master's and PhD thesis projects in theoretical physics, statistical mechanics, and interdisciplinary applications of the physics of complex systems. Projects typically combine analytical methods with numerical simulations and computational data analysis.
 
 > **For prospective students:** If you are interested in pursuing a thesis or research project, please feel free to reach out via email. Include a brief summary of your background, degree program, and topics of interest.
+
+<br>
+
+<div id="thesis-topics" style="margin-top: 20px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #0366d6;">
+  <h3 style="margin-top: 0;">Available Thesis Topics</h3>
+  <p>Below are some suggested thesis topics currently open for Master's and PhD students:</p>
+  <ul>
+    <li><strong>[Topic 1 Title]</strong> — <i>Brief description of topic 1...</i></li>
+    <li><strong>[Topic 2 Title]</strong> — <i>Brief description of topic 2...</i></li>
+    <li><strong>[Topic 3 Title]</strong> — <i>Brief description of topic 3...</i></li>
+  </ul>
+</div>
+
+<br>
+
+### Recent Master's Theses
+
+<div style="margin-left: 20px;">
+  <ul style="line-height: 1.7;">
+    <li><strong>Paolo Malcangi</strong> — <i>Strategic Tariff Setting as a Network Formation Game</i></li>
+    <li><strong>Niccolò Barbalato</strong> — <i>Phase diagrams of multiple learning agents dynamics on networks</i></li>
+    <li><strong>Daniele Marchese</strong> — <i>WKB-Based Hamiltonian Inference of Atypical Outbreaks in SIR Epidemic Models</i></li>
+    <li><strong>Alessandro Calciano</strong> — <i>Epidemic Inference in Metapopulation Models: optimization algorithm through forward-backward propagation</i></li>
+    <li><strong>Giuseppe Citino</strong> — <i>Dynamical equilibrium selection by reinforcement learning algorithms: a study of two time-scale regimes in the El Farol Bar problem</i></li>
+    <li><strong>Lorenzo Demichelis</strong> — <i>Numerical schemes for dynamical mean-field theory on finitely-connected graphs</i></li>
+  </ul>
+</div>
+
+### Recent PhD's Theses
+
+<div style="margin-left: 20px;">
+  <ul style="line-height: 1.7;">
+    <li><strong>Mattia Tarabolo</strong> — <i>Cavity-Based Approaches to Stochastic Dynamics on Sparse Graphs</i></li>
+    <li><strong>Fabio Mazza</strong> — <i>Statistical physics and epidemic inference: methods and applications</i></li>
+    <li><strong>Elisa Floris</strong> — <i>Statistical physics of molecular sorting in living cells</i></li>
+    <li><strong>Jacopo Bindi</strong> — <i>Belief Propagation approach to epidemics prediction on networks</i></li>
+  </ul>
+</div>
