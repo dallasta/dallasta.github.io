@@ -28,8 +28,8 @@ The course provides an introduction to statistical field theory and its applicat
     <summary style="cursor: pointer; color: #555;"><strong>View Course Syllabus</strong> <i>(click to expand)</i></summary>
     <div style="padding-left: 25px; margin-top: 10px;">
       <ul style="line-height: 1.7;">
-        <li>Self-similarity and scale invariance &nbsp; [<a href="/assets/FTCP25-26/lecture1.pdf">Slides</a>]</li>
-        <li>Introduction to percolation theory &nbsp; [<a href="/assets/FTCP25-26/lecture2.pdf">Slides</a>]</li>
+        <li>Self-similarity and scale invariance &nbsp; [<a href="/assets/FTCP25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
+        <li>Introduction to percolation theory &nbsp; [<a href="/assets/FTCP25-26/lecture2.pdf" target="_blank">Slides</a>]</li>
         <li>Mean-field Theory and Ginzburg-Landau Approach &nbsp; [<a href="/assets/FTCP25-26/lecture3.pdf">Slides</a>]</li>
         <li>Gaussian integrals and Wick's theorem &nbsp; [<a href="/assets/FTCP25-26/lecture4.pdf">Slides</a>]</li>
         <li>Gaussian fluctuations and breakdown of Mean-Field Theory &nbsp; [<a href="/assets/FTCP25-26/lecture5.pdf">Slides</a>]</li>
