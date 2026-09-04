@@ -137,19 +137,20 @@ Electromagnetism and wave optics.
 
 <br>
 
-## Student Projects & Supervision
+## Supervision of M.Sc. and Ph.D. Students
 
-I supervise Master's and PhD thesis projects in theoretical physics, statistical mechanics, and interdisciplinary applications of the physics of complex systems. Projects typically combine analytical methods with numerical simulations and computational data analysis.
+I usually supervise Master's and PhD's thesis projects at Politecnico di Torino (and occasionally other universities/institutes) in theoretical physics, statistical mechanics, and interdisciplinary applications of the physics of complex systems. Projects typically combine analytical methods with numerical simulations and computational data analysis.
 
 <br>
 
-### Available Thesis Topics
-<div id="thesis-topics" style="margin-top: 20px;">
-  <p>Below are some suggested thesis topics currently open for Master's and PhD students:</p>
-  <ul style="margin-top: 1.7;">
-    <li><strong>[Topic 1 Title]</strong> — <i>Brief description of topic 1...</i></li>
-    <li><strong>[Topic 2 Title]</strong> — <i>Brief description of topic 2...</i></li>
-    <li><strong>[Topic 3 Title]</strong> — <i>Brief description of topic 3...</i></li>
+### Recent PhD's Theses
+
+<div style="margin-left: 20px;">
+  <ul style="line-height: 1.7;">
+    <li><strong>Mattia Tarabolo</strong> — <i>Cavity-Based Approaches to Stochastic Dynamics on Sparse Graphs</i></li>
+    <li><strong>Fabio Mazza</strong> — <i>Statistical physics and epidemic inference: methods and applications</i></li>
+    <li><strong>Elisa Floris</strong> — <i>Statistical physics of molecular sorting in living cells</i></li>
+    <li><strong>Jacopo Bindi</strong> — <i>Belief Propagation approach to epidemics prediction on networks</i></li>
   </ul>
 </div>
 
@@ -170,13 +171,12 @@ I supervise Master's and PhD thesis projects in theoretical physics, statistical
 
 <br>
 
-### Recent PhD's Theses
-
-<div style="margin-left: 20px;">
-  <ul style="line-height: 1.7;">
-    <li><strong>Mattia Tarabolo</strong> — <i>Cavity-Based Approaches to Stochastic Dynamics on Sparse Graphs</i></li>
-    <li><strong>Fabio Mazza</strong> — <i>Statistical physics and epidemic inference: methods and applications</i></li>
-    <li><strong>Elisa Floris</strong> — <i>Statistical physics of molecular sorting in living cells</i></li>
-    <li><strong>Jacopo Bindi</strong> — <i>Belief Propagation approach to epidemics prediction on networks</i></li>
+### Currently Available M.Sc. Thesis Topics
+<div id="thesis-topics" style="margin-top: 20px;">
+  <p>Below are some suggested thesis topics currently open for Master's and PhD students:</p>
+  <ul style="margin-top: 1.7;">
+    <li><strong>[Topic 1 Title]</strong> — <i>Brief description of topic 1...</i></li>
+    <li><strong>[Topic 2 Title]</strong> — <i>Brief description of topic 2...</i></li>
+    <li><strong>[Topic 3 Title]</strong> — <i>Brief description of topic 3...</i></li>
   </ul>
 </div>
