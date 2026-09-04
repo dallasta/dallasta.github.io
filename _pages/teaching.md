@@ -83,6 +83,8 @@ The course introduces statistical-physics approaches to the modeling of systems 
 
 ## Selected Past Courses
 
+<br>
+
 ### Optimal Control and Game Theory
 Mathematical foundations of optimal control, dynamic programming, differential games, and mean-field game theory with applications to physics, economics, and multi-agent systems.
 
@@ -116,6 +118,8 @@ Non-equilibrium dynamics, domain growth, spinodal decomposition, and nucleation 
 
 ## Other Courses Taught
 
+<br>
+
 * **Complex Systems Modeling Project**: Hands-on projects and computational modeling in complex systems.  
   └─ [<a href="#">Python Notebooks</a>]
 * **Physics I**: Classical mechanics and thermodynamics.  
@@ -129,6 +133,8 @@ Non-equilibrium dynamics, domain growth, spinodal decomposition, and nucleation 
 <br>
 
 ## Student Projects & Supervision
+
+<br>
 
 I supervise Bachelor's, Master's, and PhD thesis projects in theoretical physics, statistical mechanics, and complex systems. Projects typically combine analytical methods with numerical simulations and computational data analysis.
 
