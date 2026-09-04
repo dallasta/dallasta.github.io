@@ -27,7 +27,7 @@ The course provides an introduction to statistical field theory and its applicat
   <details>
     <summary style="cursor: pointer; color: #555;"><strong>View Course Syllabus</strong> <i>(click to expand)</i></summary>
     <div style="padding-left: 25px; margin-top: 10px;">
-      <ol style="line-height: 1.7;">
+      <ul style="line-height: 1.7;">
         <li>Self-similarity and scale invariance &nbsp;•&nbsp; [<a href="#">Slides</a>]</li>
         <li>Introduction to percolation theory &nbsp;•&nbsp; [<a href="#">Slides</a>]</li>
         <li>Mean-field Theory and Ginzburg-Landau Approach</li>
@@ -38,7 +38,7 @@ The course provides an introduction to statistical field theory and its applicat
         <li>Dynamical Critical Phenomena</li>
         <li>Non-equilibrium critical phenomena: Directed Percolation and beyond</li>
         <li>Quantum Phase Transitions</li>
-      </ol>
+      </ul>
     </div>
   </details>
 </div>
@@ -48,7 +48,6 @@ The course provides an introduction to statistical field theory and its applicat
 <br>
 
 ### Physics of Interacting Agents
-<p style="color: #666; font-size: 0.95em; margin-top: -5px;"><i>60 hours &nbsp;·&nbsp; 6 ECTS &nbsp;·&nbsp; 2nd year M.Sc.</i></p>
 
 The course introduces statistical-physics approaches to the modeling of systems composed of interacting agents, with applications to socio-economic and biological systems. It focuses on how individual decision-making and local interactions can generate collective phenomena, combining game theory, optimal planning and control, dynamical systems, and agent-based computational modeling.
 
