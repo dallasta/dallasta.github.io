@@ -143,14 +143,10 @@ I supervise Master's and PhD thesis projects in theoretical physics, statistical
 
 <br>
 
-**For prospective students:** If you are interested in pursuing a thesis or research project, please feel free to reach out via email. Include a brief summary of your background, degree program, and topics of interest.
-
-<br>
-
-<div id="thesis-topics" style="margin-top: 20px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #0366d6;">
-  <h3 style="margin-top: 0;">Available Thesis Topics</h3>
+### Available Thesis Topics
+<div id="thesis-topics" style="margin-top: 20px;">
   <p>Below are some suggested thesis topics currently open for Master's and PhD students:</p>
-  <ul>
+  <ul style="margin-top: 1.7;">
     <li><strong>[Topic 1 Title]</strong> — <i>Brief description of topic 1...</i></li>
     <li><strong>[Topic 2 Title]</strong> — <i>Brief description of topic 2...</i></li>
     <li><strong>[Topic 3 Title]</strong> — <i>Brief description of topic 3...</i></li>
