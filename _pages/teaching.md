@@ -141,7 +141,9 @@ Electromagnetism and wave optics.
 
 I supervise Master's and PhD thesis projects in theoretical physics, statistical mechanics, and interdisciplinary applications of the physics of complex systems. Projects typically combine analytical methods with numerical simulations and computational data analysis.
 
-> **For prospective students:** If you are interested in pursuing a thesis or research project, please feel free to reach out via email. Include a brief summary of your background, degree program, and topics of interest.
+<br>
+
+**For prospective students:** If you are interested in pursuing a thesis or research project, please feel free to reach out via email. Include a brief summary of your background, degree program, and topics of interest.
 
 <br>
 
@@ -169,6 +171,8 @@ I supervise Master's and PhD thesis projects in theoretical physics, statistical
     <li><strong>Lorenzo Demichelis</strong> — <i>Numerical schemes for dynamical mean-field theory on finitely-connected graphs</i></li>
   </ul>
 </div>
+
+<br>
 
 ### Recent PhD's Theses
 
