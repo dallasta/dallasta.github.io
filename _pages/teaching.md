@@ -60,18 +60,16 @@ The course introduces statistical-physics approaches to the modeling of systems 
     <div style="padding-left: 25px; margin-top: 10px;">
       <ul style="line-height: 1.6;">
         <li>Foundations of individual decision-making &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Sequential decision problems and information processing &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Optimal planning, Markov Decision Processes and Reinforcement Learning &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Optimal Control &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Games in Normal Form &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Games with sequential actions (perfect/imperfect information) &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Computational Aspects of Games &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Repeated games, bounded-rationality and learning &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Simple models of socio-economic behavior with heterogeneous agents and local interactions &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Population dynamics and evolutionary game theory &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Bounded rationality, social learning, and herding &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Population dynamics and evolutionary game theory &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
-        <li>Agent-based models of financial markets: price formation, bubbles, and crashes &nbsp; [<a href="/assets/PIA25-26/lecture1.pdf" target="_blank">Slides</a>]</li>
+        <li>Sequential decision problems and information processing &nbsp; [<a href="/assets/PIA25-26/lecture2.pdf" target="_blank">Slides</a>]</li>
+        <li>Optimal planning, Markov Decision Processes and Reinforcement Learning &nbsp; [<a href="/assets/PIA25-26/lecture3.pdf" target="_blank">Slides</a>]</li>
+        <li>Optimal Control &nbsp; [<a href="/assets/PIA25-26/lecture4.pdf" target="_blank">Slides</a>]</li>
+        <li>Games in Normal Form &nbsp; [<a href="/assets/PIA25-26/lecture5.pdf" target="_blank">Slides</a>]</li>
+        <li>Games with sequential actions (perfect/imperfect information) &nbsp; [<a href="/assets/PIA25-26/lecture6.pdf" target="_blank">Slides</a>]</li>
+        <li>Computational Aspects of Games &nbsp; [<a href="/assets/PIA25-26/lecture7.pdf" target="_blank">Slides</a>]</li>
+        <li>Repeated games, bounded-rationality and learning &nbsp; [<a href="/assets/PIA25-26/lecture8.pdf" target="_blank">Slides</a>]</li>
+        <li>Simple models of socio-economic behavior with heterogeneous agents and local interactions &nbsp; [<a href="/assets/PIA25-26/lecture9.pdf" target="_blank">Slides</a>]</li>
+        <li>Population dynamics and evolutionary game theory &nbsp; [<a href="/assets/PIA25-26/lecture10.pdf" target="_blank">Slides</a>]</li>
+        <li>Agent-based models of financial markets: price formation, bubbles, and crashes &nbsp; [<a href="/assets/PIA25-26/lecture11.pdf" target="_blank">Slides</a>]</li>
       </ul>
     </div>
   </details>
