@@ -120,11 +120,16 @@ Non-equilibrium dynamics, domain growth, spinodal decomposition, and nucleation 
 
 <br>
 
-* **Complex Systems Modeling Project**: Hands-on projects and computational modeling in complex systems.  
+###Complex Systems Modeling Project 
+Hands-on projects and computational modeling in complex systems.  
   └─ [<a href="#">Python Notebooks</a>]
-* **Physics I**: Classical mechanics and thermodynamics.  
+  
+###Physics I 
+Classical mechanics and thermodynamics  
   └─ [<a href="#">Exercise Sets & Solutions</a>]
-* **Physics II**: Electromagnetism and wave optics.
+  
+###Physics II
+Electromagnetism and wave optics.
 
 <br>
 
