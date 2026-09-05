@@ -34,6 +34,11 @@ I teach undergraduate and graduate courses in **theoretical and statistical phys
 
 <br>
 
+* **[NEW] Available Thesis Projects:** New thesis topics in statistical physics and multi-agent dynamics are now available! Check the [Available Thesis Topics](/teaching/#thesis-topics) section for more details.
+
+
+<br>
+
 ## Publications
 
 My research has resulted in **70+ publications** in statistical physics, complex systems and related areas.
