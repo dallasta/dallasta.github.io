@@ -172,8 +172,9 @@ I usually supervise Master's and PhD's thesis projects at Politecnico di Torino 
 <br>
 
 ### Currently Available M.Sc. Thesis Topics
-<div id="thesis-topics" style="margin-top: 20px;">
-  <p>Below are some suggested thesis topics currently open for Master's and PhD students:</p>
+
+<div id="thesis-topics" style="margin-left: 20px;">
+  <p>Below are some suggested thesis topics currently open for Master's students:</p>
   <ul style="margin-top: 1.7;">
     <li><strong>[Topic 1 Title]</strong> — <i>Brief description of topic 1...</i></li>
     <li><strong>[Topic 2 Title]</strong> — <i>Brief description of topic 2...</i></li>
